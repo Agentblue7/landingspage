@@ -36,6 +36,42 @@ body{
     letter-spacing: 2px;
 }
 
+.headerbutton:hover{
+    cursor: pointer;
+}
+
+.mainNavi{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+}
+
+.mainNaviList{
+    list-style: none;
+}
+
+.mainNaviListItem{
+    color: white;
+    font-size: 350%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainNaviListItem > a{
+    text-decoration: none;
+    color: white;
+    d
+}
+
 .bigfigure{
     width: 100%;
     height: 90vh;
@@ -76,6 +112,7 @@ body{
     background: black;
     flex-grow: 1;
     flex-shrink: 1;
+
 }
 
 .collectionsListItem > img{
