@@ -55,7 +55,7 @@ body{
 
 .collectionsTitle, .infoTitle{
     font-size: 350%;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 40px;
@@ -87,4 +87,13 @@ body{
 .info{
     background-color: rgb(255, 141, 160);
     padding: 40px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 400px;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
