@@ -9,7 +9,7 @@ body{
     font-size: 16px;
     
 }
-
+    
 .header{
     background: black;
     display: flex;
@@ -27,19 +27,6 @@ body{
     font-weight: 400;
 }
 
-.headerbutton{
-    text-transform: uppercase;
-    background: transparent;
-    color: white;
-    border: none;
-    font-size: 150%;
-    letter-spacing: 2px;
-}
-
-.headerbutton:hover{
-    cursor: pointer;
-}
-
 .mainNavi{
     position: absolute;
     top: 0;
@@ -51,6 +38,8 @@ body{
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    opacity: 0;
+    transition: 0.8s all;
 
 }
 
@@ -69,7 +58,7 @@ body{
 .mainNaviListItem > a{
     text-decoration: none;
     color: white;
-    d
+    
 }
 
 .bigfigure{
@@ -134,3 +123,49 @@ body{
     flex-shrink: 1;
     flex-grow: 1;
 }
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands{
+    margin-left: 30px;
+   
+}
+
+.nav-icon1  {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin: 10px ;
+    cursor: pointer;
+  }
+  
+  .nav-icon1 span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+  }
+  
+  .nav-icon1 span:nth-child(1) {
+    top: 0px;
+  }
+  
+  .nav-icon1 span:nth-child(2) {
+    top: 18px;
+  }
+  
+  .nav-icon1 span:nth-child(3) {
+    top: 36px;
+  }
+  
